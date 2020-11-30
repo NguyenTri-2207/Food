@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/lightslider.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"/>
+      <script src="./node_modules/jquery/dist/jquery.js"></script> 
+         <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="header__nav">
+            <div class="header__nav-menu_left">
+                <li><a href="">HOME</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">MENUS</a></li>
+                <li><a href="">OFFERS</a></li>
+            </div>
+            <div class="header__nav-logo">
+                <img src="./img/logo.png" alt="">
+            </div>
+            <div class="header__nav-menu_right">
+                <li><a href="">GALLERY</a></li>
+                <li><a href="">CONTACT</a></li>
+                <li><a href="">BLOG</a></li>
+            </div>
+            <div class="header__nav-menu_mobile">
+                <button class="fas fa-bars"></button>
+            </div>
+        </div>
+        <div class="header__menu-mobile">
+            <ul>
+                <li><a href="">HOME</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">MENUS</a></li>
+                <li><a href="">OFFERS</a></li>
+                <li><a href="">GALLERY</a></li>
+                <li><a href="">CONTACT</a></li>
+                <li><a href="">BLOG</a></li>
+            </ul>
+        </div>
+        <div class="header__content">
+            <img src="./img/banner.png" alt="">
+            <div class="header__content-title">
+                <h2>Contact Us For <br> Best Breakfast</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis iusto obcaecati vitae illo quo aliquid nam!</p>
+                <button>Contact Us</button>
+            </div>
+        </div>
+    </header>
+    <section class="about">
+        <div class="about__img">
+            <img src="./img/about.png" alt="">
+        </div>
+        <div class="about__info">
+            <h3>About Us</h3>
+            <p>What I love to eat is a very familiar to young 
+                people in Vietnam, and it is sweetened porridge.
+                 This is what most of children in the countryside wait for their
+                  mothers to bring home after they go to the market.
+            </p>
+        </div>
+    </section>
+    <section class="product-quality">
+        <div class="product-quality__img-one">
+            <img src="./img/img1.png" alt="">
+        </div>
+        <div class="product-quality__info">
+            
+            <h2>Our Food Quality</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia voluptatem, placeat, doloremque esse officia accusantium saepe fuga ducimus natus nulla ullam asperiores sapiente eos cupiditate! Numquam repudiandae rerum sequi. Obcaecati.</p>
+           
+        </div>
+        <div class="product-quality__img-tow">
+            <img src="./img/img2.png" alt="">
+        </div>
+        <div class="product-quality__img-three">
+            <img src="./img/img3.png" alt="">
+        </div>
+    </section>
+    <section class="gallery-food">
+        <div class="gallery-food__title">
+            <h2>Our Food Gallery</h2>
+        </div>
+        <div class="gallery-food__img">
+            <div class="grid-img"><img src="./img/food1.png" alt=""></div>
+            <div class="grid-img"><img src="./img/food2.png" alt=""></div>
+            <div class="grid-img"><img src="./img/food3.png" alt=""></div>
+            <div class="grid-img"><img src="./img/food4.png" alt=""></div>
+            <div class="grid-img"><img src="./img/food5.png" alt=""></div>
+            <div class="grid-img"><img src="./img/food6.png" alt=""></div>
+        </div>
+    </section>
+    <section class="enjoy-food">
+        <div class="enjoy-food__content">
+            <h2>Enjoy Our Food</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Autem eius sit magnam illo beatae, dignissimos aut ut provident
+                explicabo fuga, eum enim remmolestiae praesentium exercitationem quae doloremque amet dolore.
+            </p>
+        </div>
+    </section>
+    <section class="product">
+        <div class="product__title">
+            <h2>Our Menu</h2>
+            
+        </div>
+        <div class="product__food">
+            <!-- slider -->
+            <ul id="autoWidth" class="cs-hidden">
+                <!-- 1 -->
+                <li class="item">
+                    <div class="product__item">
+                        <img class="product__item-img" src="./img/product2.png" alt="">
+                        <div class="product__item-content">
+                            <h3>Tapioca Brazil</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                Consectetur sint quibusdam praesentium et sunt
+                                ipsum dolores placeat, quis tempora natus! Ullam
+                            </p>
+                            <div class="buy">
+                                <h5>12.00 $</h5>
+                                <button class="btn-buy">Buy</button>
+                            </div>
+                        </div> 
+                    </div>
+                </li>
+                <!-- 2 -->
+                <li class="item">
+                    <div class="product__item">
+                        <img class="product__item-img" src="./img/product2.png" alt="">
+                        <div class="product__item-content">
+                            <h3>Tiramisu Italia</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                Consectetur sint quibusdam praesentium et sunt
+                                ipsum dolores placeat, quis tempora natus! Ullam
+                            </p>
+                            <div class="buy">
+                               <h5>32.00 $</h5>
+                                <button class="btn-buy">Buy</button>
+                            </div>
+                        </div> 
+                    </div>
+                </li>
+                <!-- 3 -->
+                <li class="item">
+                    <div class="product__item">
+                        <img class="product__item-img" src="./img/product3.png" alt="">
+                        <div class="product__item-content">
+                            <h3>Sachertorte</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                Consectetur sint quibusdam praesentium et sunt
+                                ipsum dolores placeat, quis tempora natus! Ullam
+                            </p>
+                            <div class="buy">
+                                <h5>92.00 $</h5>
+                                <button class="btn-buy">Buy</button>
+                            </div>
+                        </div> 
+                    </div>
+                </li>
+                <!-- 4 -->
+                <li class="item">
+                    <div class="product__item">
+                        <img class="product__item-img" src="./img/product2.png" alt="">
+                        <div class="product__item-content">
+                            <h3 class="content-title">Black Forest </h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                Consectetur sint quibusdam praesentium et sunt
+                                ipsum dolores placeat, quis tempora natus! Ullam
+                            </p>
+                            <div class="buy">
+                                <h5>62.00 $</h5>
+                                <button class="btn-buy">Buy</button>
+                            </div>
+                        </div> 
+                    </div>
+                </li>
+                <!-- 5 -->
+                <li class="item">
+                    <div class="product__item">
+                        <img class="product__item-img" src="./img/product3.png" alt="">
+                        <div class="product__item-content">
+                            <h3 class="content-title">ITALIAN</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                Consectetur sint quibusdam praesentium et sunt
+                                ipsum dolores placeat, quis tempora natus! Ullam
+                            </p>
+                            <div class="buy">
+                               
+                                <h5>99.00 $</h5>
+                                <button class="btn-buy">Buy</button>
+                            </div>
+                        </div> 
+                    </div>
+                </li>
+            </ul>
+            
+            
+        </div>
+    </section>
+    <section id="pay">
+        <div class="pay">
+            <div class="pay__exit">
+                <button id="pay__exit"><i class="fas fa-times"></i></button>
+            </div>
+            <div class="pay__title">Thông Tin Đơn Hàng</div>
+            <div class="pay__content">
+                <table id="table">
+                    <tr>
+                        <th>STT</th>
+                        <th>Hình Ảnh</th>
+                        <th >Tên Sản Phẩm</th>
+                        <th>Số lượng</th>
+                        <th>Giá Tiền</th>
+                        
+                    </tr>
+                    <tr>
+                        <td id="stt">1</td>
+                        <td id="pay-img"></td>
+                        <td id="pay-title"></td>
+                        <td id="pay-quality"> <input type="number" value="1"></td>
+                        <td id="pay-price"></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="pay__tongtien">
+                <span>Tổng Cộng :</span>  <span id="tongcong"></span>
+            </div>
+            <div class="pay__next">
+                <a href="">Tiến Hành Thanh Toán</a>
+            </div>    
+    
+        </div>
+    </section>
+    
+    <section class="Best-meal">
+        <div class="Best-meal__img">
+            <img src="./img/food7.png" alt="">
+        </div>
+        <div class="Best-meal__content">
+            <h3>Enjoy Best Meal</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Unde consequatur ea totam? Nobis dolore, doloremque sunt 
+                laboriosam iusto sit commodi explicabo nulla debi</p>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer__logo">
+            <img src="./img/footer.png" alt="">
+        </div>
+        <div class="footer__menu">
+            <ul>
+                <li><a href="">HOME</a></li>
+                <li><a href="">ABOUT US</a></li>
+                <li><a href="">SERVICES</a></li>
+                <li><a href="">FOODS</a></li>
+                <li><a href="">CONTACT</a></li>
+                <li><a href="">LOCATION</a></li>
+            </ul>
+        </div>
+        <div class="footer__social">
+            <a href="" ><i class="fab fa-facebook-f"></i></a>
+            <a href="" ><i class="fab fa-twitter"></i></a>
+            <a href="" ><i class="fab fa-instagram"></i></a>
+            <a href="" ><i class="fab fa-pinterest-p"></i></a>
+            
+        </div>
+    </footer>
+    <script src="./js/main.js"></script>
+    <script src="./js/lightslider.js"></script>
+</body>
+</html>
